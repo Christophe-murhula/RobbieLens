@@ -114,4 +114,8 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
+  [type="submit"] {
+    width: 60%;
+  }
 }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- web page title -->
-    <title>Accueil - Robbie Lens Photographie</title>
+    <title>Home - Robbie Lens Photographie</title>
     <!-- local style sheets -->
     <link href="style/style.css" rel="stylesheet">
     <link href="style/index.css" rel="stylesheet">
@@ -18,12 +18,12 @@
 <body>
     <header>
         <!-- the header of the website, contain the logo and the menu -->
-        <nav>
-            <img src="images/logo.png" alt="Logo Robbie Lens">
+        <nav class="navbar">
+            <img class="navbar__logo" src="images/logo.png" alt="Logo Robbie Lens">
             <div>
-                <a href="index.html">Accueil</a>
-                <a href="a-propos.html">À propos</a>
-                <a href="portfolio.html">Portfolio</a>
+                <a class="navbar__link" href="index.html">Home</a>
+                <a class="navbar__link" href="a-propos.html">About</a>
+                <a class="navbar__link" href="portfolio.html">Portfolio</a>
             </div>
         </nav>
     </header>
@@ -34,17 +34,16 @@
             <div>
                 <h1>Robbie Lens Photographie</h1>
                 <p>
-                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                    qui m’anime : capturer l’essence de chaque instant.
+                    Where <em>professionalism</em> meets <em>passion</em>. For 5 years now, I practice my profession
+                    with the passion that drives me : capturing the essence of every moment.
                 </p>
-                <a href="portfolio.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                <a href="portfolio.html" class="cta">A PROJECT ? LET'S TALK</a>
             </div>
             <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens">
         </section>
         <section class="accueil-photos">
             <!-- highlight of some works of the photographer -->
-            <h2>Mon dernier projet</h2>
+            <h2>My last project</h2>
             <div>
                 <img src="images/accueil/element-1.png" alt="Twelve apostles - Australie">
                 <img src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande">
@@ -58,15 +57,15 @@
         </section>
         <section class="section-contact">
             <!-- a form (static) to contact the photographer -->
-            <h2>Parlons de votre projet</h2>
+            <h2>Let's talk about your project</h2>
             <form action="" method="get">
                 <div>
                     <div class="input-column">
-                        <label for="nom">nom</label>
+                        <label for="nom">name</label>
                         <input type="text" name="nom" id="nom">
                     </div>
                     <div class="input-column">
-                        <label for="mail">mail</label>
+                        <label for="mail">e-mail</label>
                         <input type="email" name="mail" id="mail">
                     </div>
                 </div>

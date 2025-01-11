@@ -58,11 +58,11 @@ a:hover {
   text-decoration: none;
 }
 
-.lien-icone {
+.navbar__icone-link {
   margin-left: 30px;
 }
 
-.lien-icone:hover {
+.navbar__icone-link:hover {
   opacity: 0.5;
 }
 
@@ -71,14 +71,14 @@ section {
 }
 
 footer,
-nav {
+.navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-nav a {
+.navbar__link {
   margin-left: 30px;
 }
 
@@ -91,16 +91,16 @@ nav a {
     padding: 20px;
   }
 
-  nav {
+  .navbar {
     display: flex;
     flex-direction: column;
   }
 
-  nav img {
+  .navbar__logo {
     margin-bottom: 20px;
   }
 
-  nav a {
+  .navbar__link {
     font-size: 1.1em;
   }
 }

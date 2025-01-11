@@ -54,4 +54,8 @@ th {
   section + h2 {
     display: none;
   }
+
+  .carre-contenu {
+    padding: 10%;
+  }
 }
